@@ -51,7 +51,6 @@ export default class CreditCardWidget {
   }
 
   onSubmit(e) {
-    // console.log('submit');
     e.preventDefault();
 
     const { value } = this.input;
@@ -80,6 +79,7 @@ export default class CreditCardWidget {
   }
 
   hideChosen() {
+    /* eslint-disable-next-line */
     for (const cardItem of this.cards.querySelectorAll('img')) {
       if (cardItem.classList.contains('valid')) {
         cardItem.classList.remove('valid');
@@ -88,7 +88,6 @@ export default class CreditCardWidget {
   }
 
   onInput() {
-    // console.log('input');
     if (this.input.classList.contains('invalid')) {
       this.input.classList.remove('invalid');
     }

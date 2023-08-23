@@ -1,5 +1,5 @@
 {
-  "name": "ahj_7_http",
+  "name": "ahj_4_testing",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AplusIv/ahj_7_http.git"
+    "url": "git+https://github.com/AplusIv/ahj_4_testing2.git"
   },
   "author": "aplusiv",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AplusIv/ahj_7_http/issues"
+    "url": "https://github.com/AplusIv/ahj_4_testing2/issues"
   },
-  "homepage": "https://github.com/AplusIv/ahj_7_http#readme",
+  "homepage": "https://github.com/AplusIv/ahj_4_testing2#readme",
   "devDependencies": {
     "@babel/cli": "^7.22.6",
     "@babel/core": "^7.22.8",
@@ -30,10 +30,10 @@
     "@babel/preset-env": "^7.22.7",
     "babel-loader": "^9.1.2",
     "css-loader": "^6.8.1",
-    "eslint": "^8.44.0",
+    "eslint": "^8.47.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-jest": "^27.2.3",
     "filemanager-webpack-plugin": "^8.0.0",
     "forever": "^4.0.3",
     "html-loader": "^4.2.0",
@@ -51,7 +51,6 @@
     "mini-css-extract-plugin": "^2.7.6",
     "postcss-loader": "^7.3.3",
     "postcss-preset-env": "^9.0.0",
-    "prettier": "^3.0.0",
     "pug": "^2.0.4",
     "pug-loader": "^2.4.0",
     "puppeteer": "^21.1.0",

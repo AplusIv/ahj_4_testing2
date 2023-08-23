@@ -1,13 +1,13 @@
 {
-    // "extends": "airbnb-base",
-    // "plugins": ["prettier", "jest"],
-    "plugins": ["prettier"],
-    "extends": ["airbnb-base", "eslint:recommended", "plugin:prettier/recommended", "prettier"],
+    "extends": ["airbnb-base", "eslint:recommended", "plugin:import/recommended"],
+    "plugins": ["jest"],
+    // "plugins": ["prettier"],
+    // "extends": ["airbnb-base", "eslint:recommended", "plugin:prettier/recommended", "prettier"],
     "env": {
       "es6": true,
       "browser": true,
-      "node": true
-      // "jest/globals": true
+      "node": true,
+      "jest/globals": true
     },
     "globals": {
       "$": true,
@@ -19,7 +19,13 @@
       "ecmaVersion": 8
     },
     "rules": {
-      "no-unused-vars": "warn"
+      "no-unused-vars": "warn",
+
+      "jest/no-disabled-tests": "warn",
+      "jest/no-focused-tests": "error",
+      "jest/no-identical-title": "error",
+      "jest/prefer-to-have-length": "warn",
+      "jest/valid-expect": "error"
       // "prettier/prettier": ["error", { "singleQuote": true }]
     }
     // "overrides": [
